@@ -1,0 +1,35 @@
+<!--CSS Stylesheet-->
+
+
+.body{
+  margin: 0;
+}
+
+
+.header{
+  display: flex;
+  background-color: dodgerblue;
+  height: 200px;
+  width: 800px;
+/*  flex-direction: row; */
+/*  justify-content: flex-start;  */
+}
+
+.box1{
+  background-color: orange;
+  hight: 100px;
+  width: 100px;
+}
+
+.box2{
+  background-color: orange;
+  hight: 100px;
+  width: 100px;
+}
+
+.box3{
+  background-color: orange;
+  hight: 100px;
+  width: 100px;
+
+}
