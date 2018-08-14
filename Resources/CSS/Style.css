@@ -55,9 +55,39 @@ header nav{
 /*Large-Column*/
 .large-column{
   display: flex;
+  flex-direction: column;
   width: 630px;
   border: 1px solid black; /*remove after*/
 }
+
+.lead-story span{
+  border: 1px solid black; /*remove after*/
+  text-align: left;
+}
+
+.other-stories{
+border: 1px solid black; /*remove after*/
+}
+
+.headline{
+border: 1px solid black; /*remove after*/
+}
+
+.narrative{
+border: 1px solid black; /*remove after*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Medium-Column*/
 .medium-column{
