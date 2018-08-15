@@ -44,15 +44,16 @@ header nav{
 }
 
 
-/*Main-Content*/
+/*This is the flex box which contains the 3 flex boxes*/
 .main-content{
   display: flex;
+  flex-direction: row;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
 
-/*Large-Column*/
+/*1st Large-Column*/
 .large-column{
   display: flex;
   flex-direction: column;
@@ -62,19 +63,33 @@ header nav{
 
 .lead-story span{
   border: 1px solid black; /*remove after*/
+
   text-align: left;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
 }
 
 .other-stories{
-border: 1px solid black; /*remove after*/
+  border: 1px solid black; /*remove after*/
+  text-align: left;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .headline{
-border: 1px solid black; /*remove after*/
+  border: 1px solid black; /*remove after*/
+  text-align: left;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
 }
 
 .narrative{
-border: 1px solid black; /*remove after*/
+  border: 1px solid black; /*remove after*/
+  margin-top: 16px;
 }
 
 
@@ -92,6 +107,7 @@ border: 1px solid black; /*remove after*/
 /*Medium-Column*/
 .medium-column{
   display: flex;
+
   width: 300px;
   border: 1px solid black; /*remove after*/
 }
@@ -99,6 +115,7 @@ border: 1px solid black; /*remove after*/
 /*Small-Column*/
 .small-column{
   display: flex;
+
   width: 240px;
   border: 1px solid black; /*remove after*/
 }
