@@ -47,7 +47,6 @@ header nav{
 /*This is the flex box which contains the 3 flex boxes*/
 .main-content{
   display: flex;
-  flex-direction: row;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
@@ -92,7 +91,9 @@ header nav{
   margin-top: 16px;
 }
 
-
+.side-story{
+  border: 1px solid black; /*remove after*/
+  }
 
 
 
@@ -107,7 +108,7 @@ header nav{
 /*Medium-Column*/
 .medium-column{
   display: flex;
-
+  flex-direction: column;
   width: 300px;
   border: 1px solid black; /*remove after*/
 }
