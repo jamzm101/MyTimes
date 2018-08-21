@@ -8,6 +8,10 @@ body{
   color: black;
   }
 
+
+
+
+
 header{
   display: flex;
   align-items: center;
@@ -66,7 +70,6 @@ header nav{
 
 .lead-story span{
   border: 1px solid black; /*remove after*/
-
   text-align: left;
   width: 630px;
   display: flex;
@@ -128,12 +131,23 @@ header nav{
   font-size: 30px;
   color: white;
   text-align: center;
+  font-family: Georgia;
 }
 
+
 .glass-wine.image-content{
-  background-image: url('../../Resources/Images/glass_wine.png');
+background-image: url('../../Resources/Images/glass_wine.png');
+font-size: 40px;
 }
 
 .fall-season.image-content{
 background-image: url('../../Resources/Images/fall_season-2.png');
+}
+
+.camera-man.image-content{
+  background-image: url('../../Resources/Images/camera_man-3.png');
+}
+
+.cat-ceo.image-content{
+  background-image: url('../../Resources/Images/cat_ceo-1.png');
 }
