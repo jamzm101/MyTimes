@@ -10,8 +10,6 @@ body{
 
 
 
-
-
 header{
   display: flex;
   align-items: center;
@@ -68,13 +66,23 @@ header nav{
   border: 1px solid black; /*remove after*/
 }
 
-.lead-story span{
-  border: 1px solid black; /*remove after*/
-  text-align: left;
-  width: 630px;
-  display: flex;
-  flex-direction: column;
+.lead-story .image-content{
+background-image: url('../../Resources/Images/glass_wine.png');
+width: 630px;
+margin-top: 0;
+text-align: left;
+font-size: 40px;
 }
+
+.lead-story span{
+  /* border: 1px solid black; /*remove after*/
+  /*text-align: left; */
+  padding-left: 30px;
+  width: 630px;
+  margin-top: 0;
+  }
+
+
 
 .other-stories{
   border: 1px solid black; /*remove after*/
@@ -94,7 +102,7 @@ header nav{
 }
 
 .narrative{
-  border: 1px solid black; /*remove after*/
+  /* border: 1px solid black; /*remove after*/
   margin-top: 16;
 }
 
@@ -138,6 +146,7 @@ header nav{
 .glass-wine.image-content{
 background-image: url('../../Resources/Images/glass_wine.png');
 font-size: 40px;
+margin-top: 0;
 }
 
 .fall-season.image-content{
@@ -151,3 +160,22 @@ background-image: url('../../Resources/Images/fall_season-2.png');
 .cat-ceo.image-content{
   background-image: url('../../Resources/Images/cat_ceo-1.png');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* comment  */
