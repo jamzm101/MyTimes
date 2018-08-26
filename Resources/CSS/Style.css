@@ -169,9 +169,27 @@ background-image: url('../../Resources/Images/fall_season-2.png');
   background-image: url('../../Resources/Images/cat_ceo-1.png');
 }
 
+.new-bites .bites{
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    margin-top: 0;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid black;
+    padding: 11px 20px;
+    display: block;
+}
 
+.new-bites{
+  font-size: 16px;
+  font-weight: bold;
+}
 
-
+.new-bites h2{
+  font-size: 15px;
+  text-align: center;
+}
 
 
 
