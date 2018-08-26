@@ -125,7 +125,7 @@ font-size: 40px;
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid black; /*remove after*/
+  /* border: 1px solid black; /*remove after*/
 }
 
 /*Small-Column*/
@@ -133,7 +133,7 @@ font-size: 40px;
   display: flex;
   flex-direction: column;
   width: 240px;
-  border: 1px solid black; /*remove after*/
+  /* border: 1px solid black; /*remove after*/
 }
 
 /*Images*/
