@@ -21,6 +21,7 @@ header{
   font-family: "Verdana", sans-serif;
   font-size: 14px;
   font-weight: bold;
+
 }
 
 .logo{
@@ -41,8 +42,18 @@ margin-right: 12px;
   color: mediumaquamarine;
   }
 
-header nav{
+/* header nav{
+  display: inline-block;
     padding-right: 40px;
+} */
+
+nav span{
+  display: inline-block;
+  padding-right: 40px;
+}
+
+a{
+  color: black;
 }
 
 
