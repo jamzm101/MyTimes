@@ -30,7 +30,7 @@ display: flex;
 align-items: center;
 flex-grow: 1;
 padding-left: 30px;
-border: 1px solid black; /*remove after*/
+/* border: 1px solid black; /*remove after*/
 }
 
 .logo img{
@@ -63,7 +63,7 @@ header nav{
   display: flex;
   flex-direction: column;
   width: 630px;
-  border: 1px solid black; /*remove after*/
+  /* border: 1px solid black; /*remove after*/
 }
 
 .lead-story .image-content{
@@ -83,7 +83,7 @@ font-size: 40px;
   }
 
 .other-stories{
-  border: 1px solid black; /*remove after*/
+  /* border: 1px solid black; /*remove after*/
   text-align: left;
   width: 630px; /* width of the column  */
   display: flex;
@@ -96,14 +96,10 @@ font-size: 40px;
 .headline{
   /* border: 1px solid black; /*remove after*/
   text-align: left;
-  width: 300px;  /*this is the width of the headline boxes */
+  width: 305px;  /*this is the width of the headline boxes */
   display: flex;
   flex-direction: column;
   font-size: 20px;
-
-
-  /*display: flex;
-  flex-direction: row; */
 }
 
 .narrative{
@@ -114,7 +110,12 @@ font-size: 40px;
 }
 
 .side-story{
-  border: 1px solid black; /*remove after*/
+  /* border: 1px solid black; /*remove after*/
+  text-align: left;
+  width: 305px;  /*this is the width of the headline boxes */
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
   }
 
 
